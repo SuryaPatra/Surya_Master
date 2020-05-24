@@ -5,7 +5,7 @@
    - name: Download and deploy Arctifact in tomcat server
      get_url:
        url: http://192.168.0.154:8081/repository/nexus-repo/com/login/AccountLogin/1.0-SNAPSHOT/AccountLogin-1.0-20200524.142952-1.war
-       dest: var/lib/docker/volumes/tomcat_home/_data
+       dest: /var/lib/docker/volumes/tomcat_home/_data
        force: yes
      
        
